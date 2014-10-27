@@ -61,7 +61,7 @@
 						<p>Allen, I. E., & Seaman, J. (2013). Changing Course: Ten Years of Tracking Online Education in the United States. Sloan Consortium. PO Box 1238, Newburyport, MA 01950.</p>
 					</section>
 				</section>
-				<section>
+				<section data-transition="zoom">
 					<section data-background="https://farm9.staticflickr.com/8003/7483010074_82422bd167_b.jpg">
 						<h2 style="display:block;background:rgba(235,235,235,0.7);color:#404040;padding:13px 10px 10px 10px;">The 21st Century Classroom</h2>
 					</section>
@@ -76,11 +76,11 @@
 					</ul>
 				</section>
 
-				<section>
+				<section data-transition="zoom">
 					<h1>What does this mean?</h1>
 				</section>
 
-				<section>
+				<section data-transition="none">
 					<section>
 						<h2>Stress from the LMS may be harming learning.</h2>
 					</section>
@@ -100,7 +100,7 @@
 					<h1>What can we do?</h1>
 				</section>
 				
-				<section>
+				<section data-transition="linear">
 					<section data-background="https://farm3.staticflickr.com/2007/5709324762_9a2f1e8725_o.jpg">
 						<h1>Mobile Testing</h1>
 					</section>
@@ -114,7 +114,7 @@
 					</section>
 				</section>
 
-				<section>
+				<section data-transition="linear">
 					<section data-background="https://farm4.staticflickr.com/3458/5771850041_0253f42cc1_o.jpg">
 						<h1>Browser-based testing</h1>
 					</section>
@@ -133,7 +133,7 @@
 					</section>
 				</section>
 
-				<section>
+				<section data-transition="linear">
 					<section data-background="https://farm3.staticflickr.com/2042/2217375343_eb7f2569bc_o.jpg">
 						<h1 style="color:#000;">Research</h1>
 					</section>
@@ -147,14 +147,14 @@
 					</section>
 				</section>
 
-				<section >
+				<section data-transition="linear">
 					<h2>The Point</h2>
 					<p class="fragment">We need to know more about how students interact with online learning systems.</p>
 				</section>
 
-				<section>
+				<section data-transition="fade">
 					<h2>Brian E. Bennett</h2>
-					<p>TechSmith Corp</p>
+					<p>TechSmith Corp.</p>
 					<br />
 					<a href="http://ohheybrian.com">Web</a> | <a href="http://www.twitter.com/bennettscience">@bennettscience</a>
 					<br />
@@ -177,10 +177,13 @@
 				progress: true,
 				history: true,
 				center: true,
+				backgroundTransition: 'slide',
+				slideNumber: true,
+				mouseWheel: true,
+				previewLinks: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-				backgroundTransition: 'slide',
+				transition: Reveal.getQueryHash().transition, //|| 'linear', // default/cube/page/concave/zoom/linear/fade/none,
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
